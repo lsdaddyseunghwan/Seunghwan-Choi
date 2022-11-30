@@ -1,0 +1,51 @@
+# This is a description of my house
+# My name is Timothy and I am devops engineer at Google
+# my house is blue
+# it has 4 bedrooms, 2 baths
+# it has a 2 car garage
+# it has a driveway that holds 3 cars
+# the following people live in my house: Dad, Mom, Brother, Sister
+# my Dad's name is John he is a technician and works at Microsoft
+# my Mom's name is Melinda she is an instructor and works at Techtorial
+# my Brother is Bill he is a high school student and goes to Schaumburg High School
+# my Sister is Katy who is in College and goes to University of Chicago
+# I have 2 neighbors, Tom and Jerry
+
+
+House:
+  color: blue
+  room:
+    bedrooms: 4
+    baths: 2
+  parking:
+    - type: garage
+      spaces: 2
+    - type: driveway
+      spaces: 3
+  people:
+    - relation: Dad
+      name: John
+      job: technician
+      workplace: Microsoft
+    - relation: Mom
+      name: Melina
+      job: instructor
+      workplace: Techtorial
+    - relation: Sister
+      name: Katy
+      job: college student
+      workplace: University of Chicago      
+    - relation: Brother
+      name: Bill
+      job: high school student
+      school: Schaumburg High School
+    - relation: itself
+      name: Timothy
+      job: Devops Engineer
+      workplace: Google
+  neighbors:
+      - Tom:
+        address: 123 Dr
+      - Jerry:
+        address: 124 Dr
+

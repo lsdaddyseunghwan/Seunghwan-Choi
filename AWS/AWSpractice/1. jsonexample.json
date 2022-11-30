@@ -1,0 +1,50 @@
+// # This is a description of my house
+// # My name is Timothy and I am devops engineer at Google
+// # my house is blue
+// # it has 4 bedrooms, 2 baths
+// # it has a 2 car garage
+// # it has a driveway that holds 3 cars
+// # the following people live in my house: Dad, Mom, Brother, Sister
+// # my Dad's name is John he is a technician and works at Microsoft
+// # my Mom's name is Melinda she is an instructor and works at Techtorial
+// # my Brother is Bill he is a high school student and goes to Schaumburg High School
+// # my Sister is Katy who is in College and goes to University of Chicago
+// # I have 2 neighbors, Tom and Jerry
+
+{
+"House":{
+"color":"blue",
+"rooms":{
+    "bedroom": 4,
+    "baths": 2
+},                            
+"parking": [
+    {"type":"garage"},
+    "space": 2},
+    {"type"}:"driveway",
+    "space": 3}
+
+],
+"people": [
+{"relation"}:"Dad",
+ "name":"John",
+ "job":"technician",
+ "workingplace":"Microsoft"},
+{"relation"}:"Mom",
+ "name":"Melinda",
+ "job":"Instructor",
+ "workingplace":"Techtorial"},
+{"relation"}:"Brother",
+ "name":"Bill",
+ "job":"Student",
+ "workingplace":"Schaumburg High School"},
+{"relation"}:"Sister",
+ "name":"Katy",
+ "job":"Student",
+ "workingplace":"University of Chicago"},
+{"relation"}:"itself",
+ "name":"Timothy",
+ "job":"Devops engineer",
+ "workingplace":"Google"},
+]
+}
